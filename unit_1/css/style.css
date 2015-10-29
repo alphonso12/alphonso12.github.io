@@ -1,6 +1,7 @@
-body
-{ background-color:red;
-	}
-	
-h1,h2,p	{color:white;
-	}
+body {
+	background-color:red;
+	color:#fff;
+}
+h1, h2 {
+	font-style:italic;
+}
