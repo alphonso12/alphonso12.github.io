@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Sancreek);
+body
+{
+	background-color:#E80058;
+}
+
+h1,h2,p,nav,ul,h4  {
+	color:white;
+	text-align: center;
+	list-style-type: none;
+}
+
+
+
+h1,#slogan {
+	font-style:italic;
+	font-family: 'Sancreek', cursive;
+}
+
+
+
+
+
+
+

@@ -1,7 +1,12 @@
-body {
-	background-color:red;
-	color:#fff;
+body
+{
+	background-color:#E80058;
 }
-h1, h2 {
+
+h1,h2,p	{
+	color:white;
+}
+
+h2 {
 	font-style:italic;
-}
+}	

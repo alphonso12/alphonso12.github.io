@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Sancreek);
+
+body {
+	background-color:#FF0000;
+}
+
+h4,nav,ul,p  {
+	color:white;
+	text-align: center;
+	list-style-type: none;
+}
+
+
+
+h1,#slogan {
+	font-style:italic;
+	font-family: 'Sancreek', cursive;
+	background-color: #00ff00;
+	text-align: center
+}
+
+.nameslogan {
+	background-color: #00ff00;
+	padding-top: 10px;
+
+}
+
+.navlinks li {
+	display:inline;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.missionstate {
+	
+	font-size: 150%
+}
+
+#wrapper {
+	background: #ffffff;
+	width: 960px;
+	margin: 0 auto; 
+}
+
+
