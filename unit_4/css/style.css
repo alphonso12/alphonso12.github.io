@@ -1,12 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Sancreek);
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color:#FF0000;
+	color:#222;
+	text-align:center;
 }
 
-h4,nav,ul,p  {
-	color:white;
-	text-align: center;
+ul  {
 	list-style-type: none;
 }
 
@@ -15,14 +15,12 @@ h4,nav,ul,p  {
 h1,#slogan {
 	font-style:italic;
 	font-family: 'Sancreek', cursive;
-	background-color: #00ff00;
 	text-align: center
 }
 
 .nameslogan {
 	background-color: #00ff00;
 	padding-top: 10px;
-
 }
 
 .navlinks li {
@@ -38,7 +36,7 @@ h1,#slogan {
 
 #wrapper {
 	background: #ffffff;
-	width: 960px;
+	width: 1200px;
 	margin: 0 auto; 
 }
 
