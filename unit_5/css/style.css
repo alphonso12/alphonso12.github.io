@@ -20,9 +20,12 @@ h1,#slogan {
 	background-color: #009246;
 	padding-top: 10px;
 }
-.navlinks li {
-	display:inline-block;
-	padding: 5px 0 15px 15px;
+.navlinks li  {
+	display: inline-block;
+	padding: 10px 0 15px 15px;
+	font-size: 1em;
+	font-weight: bold;
+
 }
 
 .missionstate {
@@ -58,11 +61,68 @@ h1,#slogan {
     padding-right: 20em;
     padding-left: 20em;
 }
+.images3 {
+	float: right;
+	margin: 1.5em;
+	margin-left: 2em;
+	font: bold;
+	font-style: italic;
 
-footer {
+}.images4 {
+	float:left;
+	margin:1.5em 5em;
+	font: bold;
+	font-style: italic;
+}
+
+footer  {
 	padding: 1.5em;
 	font-weight: 500;
-	background: #009246
-	
+	background: #009246;
+}	
+
+#rightcol {
+	width:1025px;
+    float:left;
+    padding:10px;
+
+    
+}
+
+#sizes {
+	line-height:30px;
+    height:36em;
+    width:175px;
+    float:left;
+    padding:5px; 
+    background-color:#99CC99;
+    
+
+}
+
+}
+a {
+	text-decoration: none;
+}
+h2 {
+	font-size: 1.75em;
+	text-align: center;
+	font-variant: small-caps;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    clear: both;
 
 }	
+
+td  {
+    height: 1.5em;
+    font-variant: small-caps;
+}
+
+footer {
+    
+    clear: both;
+}
