@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Sancreek);
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	background-color: #b20000;
+	color: #222;
+}
+ul  {
+	list-style-type: none;
+}
+
+h1,#slogan {
+	font-style:italic;
+	font-family: 'Sancreek', cursive;
+	text-align: center;
+	font-size: 2.50em;
+	
+}
+
+.nameslogan {
+	background-color: #009246;
+	padding-top: 10px;
+}
+.navlinks li  {
+	display: inline-block;
+	padding: 10px 0 15px 15px;
+	font-size: 1em;
+	font-weight: bold;
+
+}
+
+.missionstate {
+	text-align: center;
+	font-size: 150%;
+	padding: 1.5em;
+	font-weight: bold;
+}
+
+#wrapper {
+	background: #ffffff;
+	width: 1200px;
+	margin: 0 auto; 
+}
+.salstatements {
+	font-size: 150%;
+	padding: 1.5em;
+	font-weight: normal;
+}
+
+.images1 {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20em;
+    padding-left: 20em;
+}
+
+.images2 {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20em;
+    padding-left: 20em;
+}
+.images3 {
+	float: right;
+	margin: 1.5em;
+	margin-left: 2em;
+	font: bold;
+	font-style: italic;
+	
+
+}
+.images4 {
+	float:left;
+	margin: 1.5em;
+	font: bold;
+	font-style: italic;
+}
+
+
+
+#rightcol {
+	width:1025px;
+    float:left;
+    padding:10px;
+    height: 30px;
+}
+
+#sizes {
+	line-height:30px;
+    height:40em;
+    width:175px;
+    float:left;
+    padding: .1em;
+    background-color:#99CC99;
+    
+
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 1.75em;
+	text-align: center;
+	font-variant: small-caps;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    clear: both;
+
+}	
+
+td  {
+    height: 1.5em;
+    font-variant: small-caps;
+}
+
+footer  {
+	padding: 1.5em;
+	font-weight: 500;
+	background: #009246;
+    clear: both;
+}
