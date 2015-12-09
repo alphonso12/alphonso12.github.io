@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Sancreek);
 * { margin:0; padding:0; box-sizing:border-box; }
+
 body {
 	background-color: #b20000;
 	color: #222;
@@ -35,7 +36,7 @@ h1,#slogan {
 	font-weight: bold;
 }
 
-#wrapper {
+#wrap {
 	background: #ffffff;
 	width: 1200px;
 	margin: 0 auto; 
@@ -77,11 +78,7 @@ h1,#slogan {
 	font-style: italic;
 }
 
-footer  {
-	padding: 1.5em;
-	font-weight: 500;
-	background: #009246;
-}	
+
 
 #rightcol {
 	width:1025px;
@@ -97,7 +94,6 @@ footer  {
     float:left;
     padding: .1em;
     background-color:#99CC99;
-
 }
 
 a {
@@ -122,7 +118,9 @@ td  {
     font-variant: small-caps;
 }
 
-footer {
-    
+footer  {
+	padding: 1.5em;
+	font-weight: 500;
+	background: #009246;
     clear: both;
 }
