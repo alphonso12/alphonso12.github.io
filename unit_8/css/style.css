@@ -2,8 +2,10 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
-	background-color: #b20000;
+	background-color: #F5F5DC;
 	color: #222;
+	font-size: 18px;
+
 }
 .clear {
 	clear: both;
@@ -13,6 +15,7 @@ body {
 	background: #ffffff;
 	max-width: 1200px;
 	width: 100%;
+	border: 2em solid #B20000;
 	margin: 0 auto; 
 }
 
@@ -20,13 +23,14 @@ ul  {
 	list-style-type: none;
 }
 
-h1,#slogan {
+h1, #slogan {
 	font-style:italic;
 	font-family: 'Sancreek', cursive;
 	text-align: center;
 	font-size: 2.50em;
 	background-color: #009246;
 }
+
 
 #name {
 	background-color: #009246;
@@ -80,7 +84,7 @@ article {
 	display: inline-block;
 }
 
-#meatball {
+#meatball  {
 	float: left;
 	max-width:259px;
 	width: 21.583333333333332%;
@@ -92,12 +96,12 @@ article {
 #sizes {
 	max-width: 167.156px;
 	width: 13.9296%;
-	line-height:30px;
-    height:40em;
+	line-height:40px;
+    height:60em;
     float:left;
     padding: .1em;
     background-color:#99CC99;
-    margin: 0 auto;
+    margin: 25px 0 0 0;
 
 }
 	
@@ -106,24 +110,37 @@ article {
 	width:  87.138%;
 	float: left;
 	border: 4px black solid;
-	margin: 0 20px;
+	margin: 25px 20px;
 	font-size: 1.2em;
 	padding: 1em;
+	line-height: 50px;
+
 }
-#pgirls  {
+h3	{
+	text-align: center;
+}
+h4 {
+	margin-top: 100px;
+	text-align: center;
+	font-style:italic;
+	font-family: 'Sancreek', cursive;
+
+}
+#pgirls {
 	float: left;
-	max-width: 446px;
+	max-width: 305px;
 	width: 37.1666%;
-	display: block;
-	margin: 15px 25px;
+	display: inline-block;
+	margin-right: 10px;
+	
 }
 
-#tossed  {
-	float: left;
-	max-width: 391px;
+#tossed {
+
+	max-width: 297px;
 	width: 51.8567%;
-	display:block;
-	margin: 15px 70px; 
+	display: inline-block;
+	
 }
 a { 
 	text-decoration: none;
@@ -144,12 +161,234 @@ footer {
 	background: #009246;
 	clear: both;
 }
+/*tablet viewpoint*/
+@media screen and (max-width: 1024px){
+	body {
+	font-size: 16px;
+}
 
-@media screen and (max-width: 1024px) {
+h1, #slogan {
+	font-style:italic;
+	font-family: 'Sancreek', cursive;
+	text-align: center;
+	font-size: 1em;
+	background-color: #009246;
+}
+ul  {
+	list-style-type: none;
+}
 
+nav li  {
+	display: block;
+	padding: 1% 0 1.25% 1.25%;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	margin-left: 0 auto;
+	
+}
+#veggiescol, #meatscol, #cheesecol {
+	max-width: 300px;
+	width:  100%;
+	float: none;
+	border: 4px black solid;
+	margin-top: 200px 0 0 0;
+	font-size: 1.2em;
+	padding: 1em;
+	line-height: 30px;
+	clear: both;
+
+}
+#sizes {
+	max-width:167.156px;
+	width: 100%;
+	height:15%;
+    text-align: center;
+    float:none;
+    padding: .1em;
+    background-color:#99CC99;
+    margin: 25px auto;
+    font-size: 1.5em;
+}
+#pgirls  {
+	max-width: 305px;
+	width: 100%;
+	display: block;
+	float: left;
+	overflow: hidden;
+	margin: 0 50px
+
+}
+
+#tossed  {
+	max-width: 297px;
+	width: 100%;
+	display: block;
+	margin: 15px  50px;
+	float: none;
+	overflow: hidden;
+}
+
+#calzone  {
+	float: left;
+	max-width:259px;
+	width: 100%;
+	margin:0 50px;
+	display: inline-block;
+}	
+
+#wpizza {
+	
+	max-width: 259px;
+	width: 100%;
+	margin: 0 50px;
+	display: inline-block;
+}
+#slice  {
+	
+	max-width: 259px;
+	width: 100%;
+	margin: 0 50px;
+	display: inline-block;
+}
+
+#meatball  {
+	float: left;
+	max-width:259px;
+	width: 100%;
+	margin: 0 50px;
+	display: inline-block;
+}
+ #wrapper {
+	background: #ffffff;
+	max-width: 1200px;
+	width: 100%;
+	border: 2em solid #B20000;
+	margin: 0 auto; 
+}   
+
+img {
+	border-radius: 15px;
+	border: 2px solid #009246;
+	
+}
+}
+
+/*smartphone viewpoint*/
+@media screen and (max-width: 478px) {
+
+body {
+	font-size: 13px;
+}
+
+h1, #slogan {
+	font-style:italic;
+	font-family: 'Sancreek', cursive;
+	text-align: center;
+	font-size: 1.5em;
+	background-color: #009246;
+}
+ul  {
+	list-style-type: none;
+}
+
+nav li  {
+	display: block;
+	padding: 1% 0 1.25% 1.25%;
+	font-size: 1.5;
+	font-weight: bold;
+	text-align: center;
+	margin-left: 0 auto;
+	
+}
+#veggiescol, #meatscol, #cheesecol {
+	max-width: 300px;
+	width:  87.138%;
+	float: none;
+	border: 4px black solid;
+	margin-top: 200px 0 0 0;
+	font-size: 1.2em;
+	padding: 1em;
+	line-height: 30px;
+	clear: both;
+
+}
+#sizes {
+	max-width:167.156px;
+	width: 100%;
+	height:15%;
+    text-align: center;
+    float:none;
+    padding: .1em;
+    background-color:#99CC99;
+    margin: 25px auto;
+    font-size: 1.5em;
+}
+#pgirls  {
+	max-width: 305px;
+	width: 100%;
+	display: block;
+	float: left;
+	overflow: hidden;
+	margin: 0 50px
+
+}
+
+#tossed  {
+	max-width: 297px;
+	width: 100%;
+	display: block;
+	margin: 15px  50px;
+	float: none;
+	overflow: hidden;
+}
+
+#calzone  {
+	float: left;
+	max-width:259px;
+	width: 100%;
+	margin:0 50px;
+	display: inline-block;
+}	
+
+#wpizza {
+	
+	max-width: 259px;
+	width: 100%;
+	margin: 0 50px;
+	display: inline-block;
+}
+#slice  {
+	
+	max-width: 259px;
+	width: 100%;
+	margin: 0 50px;
+	display: inline-block;
+}
+
+#meatball  {
+	float: left;
+	max-width:259px;
+	width: 100%;
+	margin: 0 50px;
+	display: inline-block;
+}
+ #wrapper {
+	background: #ffffff;
+	max-width: 1200px;
+	width: 100%;
+	border: 2em solid #B20000;
+	margin: 0 auto; 
+}   
+
+img {
+	border-radius: 15px;
+	border: 2px solid #009246;
+	
+}
 }
 
 
 
-}
+
 
