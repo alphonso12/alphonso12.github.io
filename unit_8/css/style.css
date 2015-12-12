@@ -22,7 +22,7 @@ body {
 ul  {
 	list-style-type: none;
 }
-
+/*---------------index elements----------*/
 h1, #slogan {
 	font-style:italic;
 	font-family: 'Sancreek', cursive;
@@ -66,15 +66,17 @@ nav li  {
 	width: 21.583333333333332%;
 	margin: 0 150px;
 	display: inline-block;
+	border-radius: 
 }
 article {
 	display: block;
 	font-size: 140%;
-	padding: 2em;
+	padding: 1.5em;
 	font-weight: normal;
 	margin:10px;
 	clear: left;
 	border:2px black solid;
+	line-height: 1.5;
 }
 #slice  {
 	
@@ -84,6 +86,7 @@ article {
 	display: inline-block;
 }
 
+
 #meatball  {
 	float: left;
 	max-width:259px;
@@ -91,29 +94,30 @@ article {
 	margin:20px 150px;
 	display: inline-block;
 }
-
+/*---------------index elements----------*/
+/*---------------menu elements----------*/
 
 #sizes {
-	max-width: 167.156px;
-	width: 13.9296%;
+	max-width: 200px;
+	width: 20%;
 	line-height:40px;
     height:60em;
     float:left;
     padding: .1em;
     background-color:#99CC99;
-    margin: 25px 0 0 0;
+    margin: 25px 25px 0 0px;
 
 }
 	
 #veggiescol, #meatscol, #cheesecol {
-	max-width: 300px;
+	max-width: 250px;
 	width:  87.138%;
 	float: left;
 	border: 4px black solid;
 	margin: 25px 20px;
 	font-size: 1.2em;
 	padding: 1em;
-	line-height: 50px;
+	line-height: 30px;
 
 }
 h3	{
@@ -131,18 +135,22 @@ h4 {
 	max-width: 305px;
 	width: 37.1666%;
 	display: inline-block;
-	margin-right: 10px;
+	margin: 45px 50px 0 50px;
 	
 }
 
 #tossed {
-
+	float: left;
 	max-width: 297px;
 	width: 51.8567%;
 	display: inline-block;
-	
+	margin: 45px 50px 0 50px;
 }
-a { 
+img {
+	border-radius: 15px;
+	border: 2px solid #009246;
+}	
+a 	{ 
 	text-decoration: none;
 }
 
@@ -155,6 +163,44 @@ h2 {
 a:hover {
     color: red;
 }
+/*---------------menu elements----------*/
+/*---------------pol elements----------*/
+#pol	{
+	line-height: 1.5;
+	margin-bottom: 1.5em;
+
+}
+.creditcards	{
+	display: inline-block;
+	padding: 1% 1% 1.25% 1.25%;
+	font-size: 1em;
+	font-weight: bold;
+	float: left;
+	margin:0 50px;
+	width: 100%;
+	word-spacing: 2px;
+}
+.creditcardsname	{
+	display: inline-block;	
+	font-size: 1em;
+	font-weight: bold;
+	float: left;
+	margin:20px  20px;
+}	
+
+.creditcardsnumber	{
+	display: inline-block;	
+	font-size: 1em;
+	font-weight: bold;
+	margin:20px  20px;
+}
+
+.creditcardsadd	{
+	display: inline-block;	
+	font-size: 1em;
+	font-weight: bold;
+	margin:20px  20px;
+}
 footer {
     padding: 1.5em;
 	font-weight: 500;
@@ -162,7 +208,7 @@ footer {
 	clear: both;
 }
 /*tablet viewpoint*/
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 800px){
 	body {
 	font-size: 16px;
 }
