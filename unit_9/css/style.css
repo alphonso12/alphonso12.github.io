@@ -211,7 +211,7 @@ footer {
 	clear: both;
 }
 /*----pol----------*/
-/*tablet viewpoint*/
+/*-------------------------tablet ----------viewpoint*/
 @media screen and (max-width: 800px){
 	body {
 	font-size: 16px;
@@ -320,11 +320,19 @@ nav li  {
 img {
 	border-radius: 15px;
 	border: 2px solid #009246;
-	
 }
 
-
-/*smartphone viewpoint*/
+.creditcards	{
+	display: inline-block;
+	padding: 1% 1% 1.25% 1.25%;
+	font-size: 1em;
+	font-weight: bold;
+	float: left;
+	margin:0 50px;
+	width: 100%;
+	word-spacing: 2px;
+}
+/*------------smartphone viewpoint---------*/
 @media screen and (max-width: 478px) {
 
 body {
@@ -381,7 +389,6 @@ nav li  {
 	float: left;
 	overflow: hidden;
 	margin: 0 50px
-
 }
 
 #tossed  {
@@ -434,10 +441,18 @@ nav li  {
 img {
 	border-radius: 15px;
 	border: 2px solid #009246;
+}	
+
+form input 	{
+	display: block;
+	width: 100%;
+	margin-bottom: 1%;
+
+}	
+
+.creditcardsname	{
+	display: block;
+	float: none;
+	clear: both;
 }
-}
-
-
-
-
 
