@@ -43,7 +43,6 @@ nav li  {
 	padding: 1% 0 1.25% 1.25%;
 	font-size: 1.5em;
 	font-weight: bold;
-	
 }
 
 .missionstate {
@@ -56,14 +55,14 @@ nav li  {
 #calzone  {
 	float: left;
 	max-width:259px;
-	width: 21.583333333333332%;
+	width: 80%;
 	margin:0 150px;
 	display: inline-block;
 }	
 
 #wpizza {
 	max-width: 259px;
-	width: 21.583333333333332%;
+	width: 80%;
 	margin: 0 150px;
 	display: inline-block;
 	
@@ -84,7 +83,7 @@ h5 {
 #slice  {
 	
 	max-width: 259px;
-	width: 21.583333333333332%;
+	width: 80%;
 	margin: 20px 150px;
 	display: inline-block;
 }
@@ -93,7 +92,7 @@ h5 {
 #meatball  {
 	float: left;
 	max-width:259px;
-	width: 21.583333333333332%;
+	width: 80%;
 	margin:20px 150px;
 	display: inline-block;
 }
@@ -153,8 +152,9 @@ img {
 	border-radius: 15px;
 	border: 2px solid #009246;
 }	
-a 	{ 
+a	{ 
 	text-decoration: none;
+	color: #E9967A;
 }
 
 h2 {
@@ -166,6 +166,7 @@ h2 {
 a:hover {
     color: red;
 }
+
 /*---------------menu elements----------*/
 /*---------------pol elements----------*/
 #pol	{
@@ -212,7 +213,7 @@ footer {
 }
 /*----pol----------*/
 /*tablet viewpoint*/
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1130px){
 	body {
 	font-size: 16px;
 }
@@ -262,7 +263,7 @@ nav li  {
 }
 #pgirls  {
 	max-width: 305px;
-	width: 100%;
+	width: 80%;
 	display: block;
 	float: left;
 	overflow: hidden;
@@ -275,7 +276,7 @@ nav li  {
 	width: 100%;
 	display: block;
 	margin: 15px  50px;
-	float: none;
+	float: none10
 	overflow: hidden;
 }
 
@@ -292,14 +293,14 @@ nav li  {
 	max-width: 259px;
 	width: 100%;
 	margin: 0 50px;
-	display: inline-block;
+	display: block;
 }
 #slice  {
 	
 	max-width: 259px;
 	width: 100%;
 	margin: 0 50px;
-	display: inline-block;
+	display: block;
 }
 
 #meatball  {
@@ -307,7 +308,7 @@ nav li  {
 	max-width:259px;
 	width: 100%;
 	margin: 0 50px;
-	display: inline-block;
+	display: block;
 }
  #wrapper {
 	background: #ffffff;

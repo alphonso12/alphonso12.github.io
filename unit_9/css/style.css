@@ -48,21 +48,19 @@ nav li  {
 
 .missionstate {
 	text-align: center;
-	font-size: 150%;
+	font-size: 2em;
 	padding: 1.5em;
 	font-weight: bold;
 }
 
-#calzone  {
+.calzone  {
 	float: left;
-	max-width:259px;
 	width: 21.583333333333332%;
 	margin:0 150px;
 	display: inline-block;
 }	
 
-#wpizza {
-	max-width: 259px;
+.wpizza {
 	width: 21.583333333333332%;
 	margin: 0 150px;
 	display: inline-block;
@@ -81,18 +79,15 @@ section  {
 h5 {
 	text-align: center; 
 }
-#slice  {
-	
-	max-width: 259px;
+.slice  {
 	width: 21.583333333333332%;
 	margin: 20px 150px;
 	display: inline-block;
 }
 
 
-#meatball  {
+.meatball  {
 	float: left;
-	max-width:259px;
 	width: 21.583333333333332%;
 	margin:20px 150px;
 	display: inline-block;
@@ -112,7 +107,7 @@ h5 {
 
 }
 	
-#veggiescol, #meatscol, #cheesecol {
+.veggiescol, .meatscol, .cheesecol {
 	max-width: 250px;
 	width:  87.138%;
 	float: left;
@@ -135,7 +130,6 @@ h4 {
 }
 #pgirls {
 	float: left;
-	max-width: 305px;
 	width: 37.1666%;
 	display: inline-block;
 	margin: 45px 50px 0 50px;
@@ -144,7 +138,6 @@ h4 {
 
 #tossed {
 	float: left;
-	max-width: 297px;
 	width: 51.8567%;
 	display: inline-block;
 	margin: 45px 50px 0 50px;
@@ -155,6 +148,7 @@ img {
 }	
 a 	{ 
 	text-decoration: none;
+	color: #FF820D;
 }
 
 h2 {
@@ -212,247 +206,166 @@ footer {
 }
 /*----pol----------*/
 /*-------------------------tablet ----------viewpoint*/
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1130px){
 	body {
-	font-size: 16px;
+	font-size: 15px;
 }
-
+/*--------index-----------*/
 h1, #slogan {
-	font-style:italic;
-	font-family: 'Sancreek', cursive;
-	text-align: center;
-	font-size: 1em;
-	background-color: #009246;
-}
-ul  {
-	list-style-type: none;
-}
-
-nav li  {
-	display: block;
-	padding: 1% 0 1.25% 1.25%;
 	font-size: 1.5em;
-	font-weight: bold;
-	text-align: center;
-	margin-left: auto;
-	
 }
-#veggiescol, #meatscol, #cheesecol {
-	max-width: 300px;
-	width:  100%;
-	float: none;
-	border: 4px black solid;
-	margin-top: 200px;
-	font-size: 1.2em;
-	padding: 1em;
-	line-height: 30px;
-	clear: both;
+#name {
+	background-color: #009246;
+	padding-top: 1%;
+}
 
+.missionstate {
+	text-align: center;
+	font-size:1.5em;
+	padding: 1.5em;
+	font-weight: bold;
 }
-#sizes {
-	max-width:167.156px;
-	width: 100%;
-	height:15%;
-    text-align: center;
+img	{
+	width: 250%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.calzone	{
+	margin-bottom: 10%;
+}
+/*--------index-----------*/
+
+/*--------menu-----------*/
+	
+#sizes	{
+	max-width: 200px;
+	width: 20%;
+	line-height:40px;
+    height:20em;
     float:none;
     padding: .1em;
     background-color:#99CC99;
-    margin: 25px auto;
-    font-size: 1.5em;
+    margin: auto;
+    font-size: 1.2em;
 }
-#pgirls  {
-	max-width: 305px;
-	width: 100%;
-	display: block;
-	float: left;
-	overflow: hidden;
-	margin: 0 50px
-
-}
-
-#tossed  {
-	max-width: 297px;
-	width: 100%;
-	display: block;
-	margin: 15px  50px;
-	float: none;
-	overflow: hidden;
-}
-
-#calzone  {
-	float: left;
-	max-width:259px;
-	width: 100%;
-	margin:0 50px;
-	display: inline-block;
-}	
-
-#wpizza {
-	
-	max-width: 259px;
-	width: 100%;
-	margin: 0 50px;
-	display: inline-block;
-}
-#slice  {
-	
-	max-width: 259px;
-	width: 100%;
-	margin: 0 50px;
-	display: inline-block;
-}
-
-#meatball  {
-	float: left;
-	max-width:259px;
-	width: 100%;
-	margin: 0 50px;
-	display: inline-block;
-}
- #wrapper {
-	background: #ffffff;
-	max-width: 1200px;
-	width: 100%;
-	border: 2em solid #B20000;
-	margin: 0 auto; 
-}   
-
-img {
-	border-radius: 15px;
-	border: 2px solid #009246;
-}
-
-.creditcards	{
-	display: inline-block;
-	padding: 1% 1% 1.25% 1.25%;
-	font-size: 1em;
-	font-weight: bold;
-	float: left;
-	margin:0 50px;
-	width: 100%;
-	word-spacing: 2px;
-}
-/*------------smartphone viewpoint---------*/
-@media screen and (max-width: 478px) {
-
-body {
-	font-size: 13px;
-}
-
-h1, #slogan {
-	font-style:italic;
-	font-family: 'Sancreek', cursive;
-	text-align: center;
-	font-size: 1.5em;
-	background-color: #009246;
-}
-ul  {
-	list-style-type: none;
-}
-
-nav li  {
-	display: block;
-	padding: 1% 0 1.25% 1.25%;
-	font-size: 1.5em;
-	font-weight: bold;
-	text-align: center;
-	margin-left: auto;
-	
-}
-#veggiescol, #meatscol, #cheesecol {
-	max-width: 300px;
+.veggiescol, .meatscol, .cheesecol{
+	max-width: 250px;
 	width:  87.138%;
-	float: none;
+	float: left;
 	border: 4px black solid;
-	margin-top: 200px;
+	margin-left: 5%;
 	font-size: 1.2em;
 	padding: 1em;
 	line-height: 30px;
-	clear: both;
-
 }
-#sizes {
-	max-width:167.156px;
-	width: 100%;
-	height:15%;
-    text-align: center;
+#pgirls {
+	float: none;
+	width:19%;
+	display: block;
+	margin-left: 20%;
+	margin-top: 10%
+}
+
+#tossed{
+	width:19%;
+	display: block;
+	margin-left: 20%;
+	margin-bottom: 12%;
+}
+/*-------------------------mobile phone ----------viewpoint*/
+@media screen and (max-width: 360px)   {
+	body {
+	font-size: 10px;
+}
+/*--------index-----------*/
+nav li  {
+	display: block;
+	padding: 1% 0 1.25% 1.25%;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.wpizza  {
+	width: 20%;
+	display: block;
+  	margin-left: auto;
+  	margin-bottom: 10px;
+ }
+
+.calzone	{
+	width: 20%;
+	display: block;
+  	margin-left: auto;
+  	float: none;
+} 
+section{
+ 	margin-bottom: 10px;
+
+ }
+ .meatball{
+	width: 20%;
+	display: block;
+  	margin-left: 90px;
+  	float: none;
+}
+.slice {
+	width: 20%;
+	display: block;
+  	margin-left: auto;
+}
+/*--------index-----------*/
+
+/*--------menu-----------*/
+nav li  {
+	display: inline-block;
+	padding: 1% 0 1.25% 1.25%;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 20px;
+	
+}
+#sizes	{
+	display: block;
     float:none;
-    padding: .1em;
+    width: 100%;
     background-color:#99CC99;
-    margin: 25px auto;
+    margin: auto;
+    text-align: center;
+    height:25em;
     font-size: 1.5em;
 }
-#pgirls  {
-	max-width: 305px;
-	width: 100%;
-	display: block;
-	float: left;
-	overflow: hidden;
-	margin: 0 50px
+.veggiescol, .meatscol, .cheesecol{
+	font-size: 1.5em;
 }
 
-#tossed  {
-	max-width: 297px;
-	width: 100%;
-	display: block;
-	margin: 15px  50px;
+#pgirls {
 	float: none;
-	overflow: hidden;
+	width:35%;
+	display: block;
+	margin-left: 15px;
+	margin-top: 15px;
+	margin-right:auto;
 }
 
-#calzone  {
-	float: left;
-	max-width:259px;
-	width: 100%;
-	margin:0 50px;
-	display: inline-block;
-}	
-
-#wpizza {
+#tossed{
+	width:35%;
+	display: block;
+	margin-left: 15px;
+	margin-right:auto;
 	
-	max-width: 259px;
-	width: 100%;
-	margin: 0 50px;
-	display: inline-block;
 }
-#slice  {
-	
-	max-width: 259px;
-	width: 100%;
-	margin: 0 50px;
-	display: inline-block;
-}
-
-#meatball  {
-	float: left;
-	max-width:259px;
-	width: 100%;
-	margin: 0 50px;
-	display: inline-block;
-}
- #wrapper {
-	background: #ffffff;
-	max-width: 1200px;
-	width: 100%;
-	border: 2em solid #B20000;
-	margin: 0 auto; 
-}   
-
-img {
-	border-radius: 15px;
-	border: 2px solid #009246;
-}	
-
-form input 	{
+/*--------pol-----------*/
+form input	{
 	display: block;
 	width: 100%;
 	margin-bottom: 1%;
-
-}	
-
-.creditcardsname	{
-	display: block;
-	float: none;
-	clear: both;
 }
-
+input[type=Submit]{
+	 max-width: 50%;
+	 margin: 5px 15px;
+}
+footer{
+	font-size: 1.5em;
+}
+}
